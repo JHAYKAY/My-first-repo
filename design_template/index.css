@@ -1,0 +1,85 @@
+
+body{
+    margin:0;
+    padding: 0;
+    border: none;
+}
+header{
+    background-color: #2e2e2e;
+    color: #fff;
+}
+.ourcolor{
+    color: #9bb825;
+}
+.nav_flex_container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+.left_nav_item{
+    display: flex;
+    margin-right: 40px;
+    width: 50%;
+}
+.left_nav_item > h4 {
+    margin-right: 2rem;
+}
+.right_nav_item > p > img{
+    margin-right: 10px;
+    margin-top: 6px;
+
+}
+.greeting_section_container{
+    background-color: #95ca00;
+    display:flex;
+    padding:30px 50px;
+    color: #fff;
+}
+.greetings_top {
+    display: flex;
+    padding-bottom: 25px;
+    margin-right: 150px;
+
+}
+.greetings_top > h1 {
+    margin-right: 25px;
+}
+.greetings_top > p {
+    padding-top: 0.7rem;
+}
+.greetings_buttom{
+    margin-right: 150px;
+}
+
+.links{
+    background-color: #fff;
+    text-align: center;
+    padding: 30px;
+    color: black;
+}
+
+.links > a {
+    text-decoration: none;
+    font-weight: bold;
+    border-right: 6px solid whitesmoke;
+    color: black;
+    padding: 10px;
+}
+
+.links > a:first-child{
+ border-left: 6px solid whitesmoke;
+}
+
+.fantastic_container{
+    background-color: #f6ffc0;
+    padding: 60px 100px;
+}
+
+.envelope_text_area{
+    display:flex;
+}
+
+.envelope_image {
+    margin-right: 45px;
+}
+
